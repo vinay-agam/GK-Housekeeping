@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GK Housekeeping Services - Professional House Cleaning in Tiruvarur & Nagapattinam</title>
     <meta name="description"
-        content="Professional house cleaning services in Tiruvarur and Nagapattinam. Affordable rates, quality service, and new cleaning tools guaranteed. Contact S. Ganesan for reliable housekeeping.">
+          content="Professional house cleaning services in Tiruvarur and Nagapattinam. Affordable rates, quality service, and new cleaning tools guaranteed. Contact S. Ganesan for reliable housekeeping.">
     <meta name="keywords"
-        content="housekeeping services, house cleaning, Tiruvarur, Nagapattinam, professional cleaning, home cleaning, deep cleaning, general cleaning">
+          content="housekeeping services, house cleaning, Tiruvarur, Nagapattinam, professional cleaning, home cleaning, deep cleaning, general cleaning">
 
     <!-- Open Graph Tags -->
     <meta property="og:title" content="GK Housekeeping Services - Professional House Cleaning">
     <meta property="og:description"
-        content="Professional house cleaning services in Tiruvarur and Nagapattinam. Affordable rates starting from ₹1800.">
+          content="Professional house cleaning services in Tiruvarur and Nagapattinam. Affordable rates starting from ₹1800.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://gk-housekeeping.github.io">
     <meta property="og:image" content="https://gk-housekeeping.github.io/img/logo.png">
@@ -23,10 +23,19 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
         body {
             font-family: 'Poppins', sans-serif;
         }
+
+        .bebas-neue-regular {
+            font-family: "Bebas Neue", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
 
         @keyframes fade-in-down {
             0% {
@@ -81,408 +90,497 @@
 </head>
 
 <body class="bg-gray-50 text-gray-800">
-    <!-- Navigation -->
-    <nav class="bg-white shadow-sm fixed w-full top-0 z-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-16">
-                <div class="flex items-center justify-center gap-2">
-                    <a href="#">
-                        <img class="h-8 w-auto" src="./img/logo.png" alt="GK Housekeeping">
-                    </a>
-                    <h1 class="text-lg md:text-xl font-bold text-secondary">GK Housekeeping</h1>
-                </div>
-                <div class="hidden md:block">
-                    <div class="ml-10 flex items-baseline space-x-4">
-                        <a href="#services"
-                            class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Services</a>
-                        <a href="#pricing"
-                            class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Pricing</a>
-                        <a href="#about"
-                           class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition-colors">About</a>
-                        <a href="#contact"
-                            class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Contact</a>
-                    </div>
-                </div>
-                <div class="md:hidden">
-                    <button id="mobile-menu-button" class="text-gray-600 hover:text-primary">
-                        <i data-lucide="menu" class="w-6 h-6"></i>
-                    </button>
-                </div>
+<!-- Navigation -->
+<nav class="bg-white shadow-sm fixed w-full top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+            <div class="flex items-center justify-center gap-2">
+                <a href="#">
+                    <img class="h-8 w-auto" src="./img/logo.png" alt="GK Housekeeping">
+                </a>
+                <h1 class="text-lg md:text-xl font-bold text-secondary">GK Housekeeping</h1>
             </div>
-        </div>
-        <!-- Mobile menu -->
-        <div id="mobile-menu" class="md:hidden hidden bg-white border-t">
-            <div class="px-2 pt-2 pb-3 space-y-1">
-                <a href="#services" class="block px-3 py-2 text-gray-600 hover:text-primary">Services</a>
-                <a href="#pricing" class="block px-3 py-2 text-gray-600 hover:text-primary">Pricing</a>
-                <a href="#about" class="block px-3 py-2 text-gray-600 hover:text-primary">About</a>
-                <a href="#contact" class="block px-3 py-2 text-gray-600 hover:text-primary">Contact</a>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section
-            class="relative max-w-screen-2xl mx-auto bg-cover bg-center text-white pt-24 pb-20 md:pt-32 md:pb-24"
-            style="background-image: url('./img/seamless-vector-pattern-background-of-cleaning-ser.svg');">
-
-        <!-- Gradient Overlay for Better Text Visibility -->
-        <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/70"></div>
-
-        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center">
-
-                <!-- Heading -->
-                <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold mb-4 animate-fade-in-down leading-tight drop-shadow-lg">
-                    <span class=" text-white px-2 rounded">Professional housekeeping services</span>
-                </h1>
-
-                <!-- Subheading -->
-                <p class="text-base sm:text-lg md:text-xl mb-8 max-w-3xl mx-auto animate-fade-in-up drop-shadow-md">
-                    in <span class="font-semibold bg-accent/60 text-white rounded-full px-2">Tiruvarur & Nagapattinam</span>.
-                    We use high-quality cleaning tools for a pristine finish.
-                </p>
-
-                <!-- Buttons -->
-                <div class="flex justify-center  items-center gap-4">
-                    <a href="https://wa.me/916369413755?text=I'm%20interested%20in%20the%201BHK%20General%20Cleaning%20plan."
-                       class="bg-secondary hover:bg-green-500 text-white font-bold py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105 flex items-center shadow-lg w-auto text-center">
-                        Book Now
-                    </a>
+            <div class="hidden md:block">
+                <div class="ml-10 flex items-baseline space-x-4">
                     <a href="#services"
-                       class="bg-white text-secondary hover:bg-gray-200 font-bold py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105 flex items-center shadow-lg w-auto text-center">
-                        Explore
-                    </a>
+                       class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Services</a>
+                    <a href="#pricing"
+                       class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Pricing</a>
+                    <a href="#about"
+                       class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition-colors">About</a>
+                    <a href="#contact"
+                       class="text-gray-600 hover:text-primary px-3 py-2 text-sm font-medium transition-colors">Contact</a>
                 </div>
-
+            </div>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-gray-600 hover:text-primary">
+                    <i data-lucide="menu" class="w-6 h-6"></i>
+                </button>
             </div>
         </div>
-    </section>
+    </div>
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="md:hidden hidden bg-white border-t">
+        <div class="px-2 pt-2 pb-3 space-y-1">
+            <a href="#services" class="block px-3 py-2 text-gray-600 hover:text-primary">Services</a>
+            <a href="#pricing" class="block px-3 py-2 text-gray-600 hover:text-primary">Pricing</a>
+            <a href="#about" class="block px-3 py-2 text-gray-600 hover:text-primary">About</a>
+            <a href="#contact" class="block px-3 py-2 text-gray-600 hover:text-primary">Contact</a>
+        </div>
+    </div>
+</nav>
 
-    <!-- Services Section -->
-    <section id="services" class="py-20 bg-light">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">What We Offer</h2>
-                <p class="text-lg text-gray-600 max-w-2xl mx-auto">From a quick touch-up to a deep clean, we have you covered.</p>
+<!-- Hero Section -->
+<section
+        class="relative max-w-screen-2xl mx-auto bg-cover bg-center text-white pt-24 pb-20 md:pt-32 md:pb-24"
+        style="background-image: url('./img/seamless-vector-pattern-background-of-cleaning-ser.svg');">
+
+    <!-- Gradient Overlay for Better Text Visibility -->
+    <div class="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/70"></div>
+
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+
+            <!-- Heading -->
+            <h1 class="text-4xl md:text-6xl font-bold mb-4 animate-fade-in-down leading-tight drop-shadow-lg">
+                    <span class="hidden md:block w-fit mx-auto text-white px-2 rounded bebas-neue-regular mx-1  relative inline-block stroke-current">
+       Professional housekeeping services
+        <svg class="absolute -bottom-0.5 w-full max-h-1.5 text-accent" viewBox="0 0 55 5"
+             xmlns="http://www.w3.org/2000/svg"
+             preserveAspectRatio="none">
+            <path d="M0.652466 4.00002C15.8925 2.66668 48.0351 0.400018 54.6853 2.00002" stroke-width="2"></path>
+        </svg>
+    </span>
+                <span class="md:hidden block w-fit mx-auto text-white px-2 rounded bebas-neue-regular mx-1  relative inline-block stroke-current">
+       Professional housekeeping
+        <svg class="absolute -bottom-0.5 w-full max-h-1.5 text-accent" viewBox="0 0 55 5"
+             xmlns="http://www.w3.org/2000/svg"
+             preserveAspectRatio="none">
+            <path d="M0.652466 4.00002C15.8925 2.66668 48.0351 0.400018 54.6853 2.00002" stroke-width="2"></path>
+        </svg>
+    </span>
+                <span class="md:hidden block w-fit mx-auto text-white px-2 rounded bebas-neue-regular mx-1  relative inline-block stroke-current">
+       services
+        <svg class="absolute -bottom-0.5 w-full max-h-1.5 text-accent" viewBox="0 0 55 5"
+             xmlns="http://www.w3.org/2000/svg"
+             preserveAspectRatio="none">
+            <path d="M0.652466 4.00002C15.8925 2.66668 48.0351 0.400018 54.6853 2.00002" stroke-width="2"></path>
+        </svg>
+    </span>
+                <!--                    <span class=" text-white px-2 rounded bebas-neue-regular"></span>-->
+            </h1>
+
+            <!-- Subheading -->
+            <p class="text-base sm:text-lg md:text-xl mb-8 max-w-3xl mx-auto animate-fade-in-up drop-shadow-md">
+                in <span class="font-semibold bg-accent/80 text-white rounded-full px-2">Tiruvarur & Nagapattinam</span>.
+                We use high-quality cleaning tools for a pristine finish.
+            </p>
+
+            <!-- Buttons -->
+            <div class="flex justify-center  items-center gap-4">
+                <a href="https://wa.me/916369413755?text=I'm%20interested%20in%20the%201BHK%20General%20Cleaning%20plan."
+                   class="bg-secondary hover:bg-green-500 text-white font-bold py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105 flex items-center shadow-lg w-auto text-center">
+                    Book Now
+                </a>
+                <a href="#services"
+                   class="bg-white text-secondary hover:bg-gray-200 font-bold py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105 flex items-center shadow-lg w-auto text-center">
+                    Explore
+                </a>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-center">
-                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transform hover:-translate-y-2 transition-all duration-300">
-                    <div class="bg-secondary text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
-                        <i data-lucide="sparkles" class="w-8 h-8"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-2">General Cleaning</h3>
-                    <p class="text-gray-600">Dusting, sweeping, mopping, and tidying up all living areas.</p>
+
+        </div>
+    </div>
+</section>
+
+<!-- Services Section -->
+<section id="services" class="py-20 bg-light">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">What We Offer</h2>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">From a quick touch-up to a deep clean, we have you
+                covered.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-center">
+            <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transform hover:-translate-y-2 transition-all duration-300">
+                <div class="bg-secondary text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                    <i data-lucide="sparkles" class="w-8 h-8"></i>
                 </div>
-                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transform hover:-translate-y-2 transition-all duration-300">
-                    <div class="bg-secondary text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
-                        <i data-lucide="sofa" class="w-8 h-8"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-2">Hall Cleaning</h3>
-                    <p class="text-gray-600">Complete living room and hall area cleaning</p>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">General Cleaning</h3>
+                <p class="text-gray-600">Dusting, sweeping, mopping, and tidying up all living areas.</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transform hover:-translate-y-2 transition-all duration-300">
+                <div class="bg-secondary text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                    <i data-lucide="sofa" class="w-8 h-8"></i>
                 </div>
-                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transform hover:-translate-y-2 transition-all duration-300">
-                    <div class="bg-secondary text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
-                        <i data-lucide="bed-double" class="w-8 h-8"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-2">Bedroom Cleaning</h3>
-                    <p class="text-gray-600">Making beds, dusting furniture, and ensuring a restful environment.</p>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Hall Cleaning</h3>
+                <p class="text-gray-600">Complete living room and hall area cleaning</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transform hover:-translate-y-2 transition-all duration-300">
+                <div class="bg-secondary text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                    <i data-lucide="bed-double" class="w-8 h-8"></i>
                 </div>
-                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transform hover:-translate-y-2 transition-all duration-300">
-                    <div class="bg-secondary text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
-                        <i data-lucide="chef-hat" class="w-8 h-8"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-2">Kitchen Cleaning</h3>
-                    <p class="text-gray-600">Cleaning countertops, sinks, and appliance exteriors for a spotless kitchen.</p>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Bedroom Cleaning</h3>
+                <p class="text-gray-600">Making beds, dusting furniture, and ensuring a restful environment.</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transform hover:-translate-y-2 transition-all duration-300">
+                <div class="bg-secondary text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                    <i data-lucide="chef-hat" class="w-8 h-8"></i>
                 </div>
-                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transform hover:-translate-y-2 transition-all duration-300">
-                    <div class="bg-secondary text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
-                        <i data-lucide="bath" class="w-8 h-8"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-2">Bathroom Cleaning</h3>
-                    <p class="text-gray-600">Sanitizing toilets, showers, sinks, and countertops for a hygienic space.</p>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Kitchen Cleaning</h3>
+                <p class="text-gray-600">Cleaning countertops, sinks, and appliance exteriors for a spotless
+                    kitchen.</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transform hover:-translate-y-2 transition-all duration-300">
+                <div class="bg-secondary text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                    <i data-lucide="bath" class="w-8 h-8"></i>
                 </div>
-                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transform hover:-translate-y-2 transition-all duration-300">
-                    <div class="bg-secondary text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
-                        <i data-lucide="spray-can" class="w-8 h-8"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-2">Deep Cleaning</h3>
-                    <p class="text-gray-600">A comprehensive clean of your entire home, including hard-to-reach areas.</p>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Bathroom Cleaning</h3>
+                <p class="text-gray-600">Sanitizing toilets, showers, sinks, and countertops for a hygienic space.</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transform hover:-translate-y-2 transition-all duration-300">
+                <div class="bg-secondary text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                    <i data-lucide="spray-can" class="w-8 h-8"></i>
                 </div>
-                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transform hover:-translate-y-2 transition-all duration-300">
-                    <div class="bg-secondary text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
-                        <i data-lucide="square" class="w-8 h-8"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-2">Window Cleaning</h3>
-                    <p class="text-gray-600">Crystal clear window and glass cleaning</p>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Deep Cleaning</h3>
+                <p class="text-gray-600">A comprehensive clean of your entire home, including hard-to-reach areas.</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transform hover:-translate-y-2 transition-all duration-300">
+                <div class="bg-secondary text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                    <i data-lucide="square" class="w-8 h-8"></i>
                 </div>
-                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transform hover:-translate-y-2 transition-all duration-300">
-                    <div class="bg-secondary text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
-                        <i data-lucide="refrigerator" class="w-8 h-8"></i>
-                    </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-2">Refrigerator Cleaning</h3>
-                    <p class="text-gray-600">Inside and outside refrigerator deep cleaning</p>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Window Cleaning</h3>
+                <p class="text-gray-600">Crystal clear window and glass cleaning</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transform hover:-translate-y-2 transition-all duration-300">
+                <div class="bg-secondary text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                    <i data-lucide="refrigerator" class="w-8 h-8"></i>
                 </div>
-                <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transform hover:-translate-y-2 transition-all duration-300">
-                    <div class="bg-secondary text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
-                        <i data-lucide="washing-machine" class="w-8 h-8"></i>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Refrigerator Cleaning</h3>
+                <p class="text-gray-600">Inside and outside refrigerator deep cleaning</p>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transform hover:-translate-y-2 transition-all duration-300">
+                <div class="bg-secondary text-white rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-6">
+                    <i data-lucide="washing-machine" class="w-8 h-8"></i>
+                </div>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Appliance Cleaning</h3>
+                <p class="text-gray-600">Specialized cleaning for your washing machine, grinder, and other
+                    appliances.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Pricing Section -->
+<section id="pricing" class="py-20 bg-light">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Simple, Transparent Pricing</h2>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">Choose the plan that's right for you.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-7xl mx-auto">
+            <div class="bg-white p-8 rounded-xl shadow-md text-center transform hover:scale-105 transition-transform duration-300">
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">1BHK General Cleaning</h3>
+                <p class="text-5xl font-bold text-primary mb-6">₹1800</p>
+                <ul class="text-gray-600 space-y-3 mb-8">
+                    <li class="flex items-center justify-center"><i data-lucide="check"
+                                                                    class="w-5 h-5 text-secondary mr-2"></i>Full House
+                        Cleaning
+                    </li>
+                    <li class="flex items-center justify-center"><i data-lucide="check"
+                                                                    class="w-5 h-5 text-secondary mr-2"></i>Floor &
+                        Bathroom
+                    </li>
+                    <li class="flex items-center justify-center"><i data-lucide="check"
+                                                                    class="w-5 h-5 text-secondary mr-2"></i>Kitchen
+                        (External)
+                    </li>
+                </ul>
+                <a href="https://wa.me/916369413755?text=I'm%20interested%20in%20the%201BHK%20General%20Cleaning%20plan."
+                   target="_blank"
+                   class="bg-gray-800 text-white px-8 py-3 rounded-full font-semibold hover:bg-gray-900 transition-colors">Book</a>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-md text-center transform hover:scale-105 transition-transform duration-300">
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">1BHK Deep Cleaning</h3>
+                <p class="text-5xl font-bold text-primary mb-6">₹2500</p>
+                <ul class="text-gray-600 space-y-3 mb-8">
+                    <li class="flex items-center justify-center"><i data-lucide="check"
+                                                                    class="w-5 h-5 text-secondary mr-2"></i>Everything
+                        in General
+                    </li>
+                    <li class="flex items-center justify-center"><i data-lucide="check"
+                                                                    class="w-5 h-5 text-secondary mr-2"></i>Window &
+                        Grill Cleaning
+                    </li>
+                    <li class="flex items-center justify-center"><i data-lucide="check"
+                                                                    class="w-5 h-5 text-secondary mr-2"></i>Full
+                        Appliance Cleaning
+                    </li>
+                </ul>
+                <a href="https://wa.me/916369413755?text=I'm%20interested%20in%20the%201BHK%20Deep%20Cleaning%20plan."
+                   target="_blank"
+                   class="bg-gray-800 text-white px-8 py-3 rounded-full font-semibold hover:bg-gray-900 transition-colors">Book</a>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-md text-center transform hover:scale-105 transition-transform duration-300">
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">2BHK General Cleaning</h3>
+                <p class="text-5xl font-bold text-primary mb-6">₹2000</p>
+                <ul class="text-gray-600 space-y-3 mb-8">
+                    <li class="flex items-center justify-center"><i data-lucide="check"
+                                                                    class="w-5 h-5 text-secondary mr-2"></i>Full House
+                        Cleaning
+                    </li>
+                    <li class="flex items-center justify-center"><i data-lucide="check"
+                                                                    class="w-5 h-5 text-secondary mr-2"></i>Floor &
+                        Bathroom
+                    </li>
+                    <li class="flex items-center justify-center"><i data-lucide="check"
+                                                                    class="w-5 h-5 text-secondary mr-2"></i>Kitchen
+                        (External)
+                    </li>
+                </ul>
+                <a href="https://wa.me/916369413755?text=I'm%20interested%20in%20the%202BHK%20General%20Cleaning%20plan."
+                   target="_blank"
+                   class="bg-gray-800 text-white px-8 py-3 rounded-full font-semibold hover:bg-gray-900 transition-colors">Book</a>
+            </div>
+            <div class="bg-white p-8 rounded-xl shadow-md text-center transform hover:scale-105 transition-transform duration-300">
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">2BHK Deep Cleaning</h3>
+                <p class="text-5xl font-bold text-primary mb-6">₹3000</p>
+                <ul class="text-gray-600 space-y-3 mb-8">
+                    <li class="flex items-center justify-center"><i data-lucide="check"
+                                                                    class="w-5 h-5 text-secondary mr-2"></i>Everything
+                        in General
+                    </li>
+                    <li class="flex items-center justify-center"><i data-lucide="check"
+                                                                    class="w-5 h-5 text-secondary mr-2"></i>Window &
+                        Grill Cleaning
+                    </li>
+                    <li class="flex items-center justify-center"><i data-lucide="check"
+                                                                    class="w-5 h-5 text-secondary mr-2"></i>Full
+                        Appliance Cleaning
+                    </li>
+                </ul>
+                <a href="https://wa.me/916369413755?text=I'm%20interested%20in%20the%202BHK%20Deep%20Cleaning%20plan."
+                   target="_blank"
+                   class="bg-gray-800 text-white px-8 py-3 rounded-full font-semibold hover:bg-gray-900 transition-colors">Book</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- About Us Section -->
+<section id="about" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div class="text-center md:text-left">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Your Trusted Cleaning Partner</h2>
+                <p class="text-lg text-gray-600 mb-6">
+                    With years of experience, GK Housekeeping is dedicated to providing top-quality, reliable cleaning
+                    services in Tiruvarur and Nagapattinam. We use modern equipment and eco-friendly products to ensure
+                    your home is not just clean, but also safe and healthy.
+                </p>
+                <div class="grid grid-cols-2 gap-4 text-left">
+                    <div class="bg-light p-4 rounded-lg">
+                        <i data-lucide="award" class="w-8 h-8 text-primary mb-2"></i>
+                        <h4 class="font-bold">Experienced Team</h4>
+                        <p class="text-sm text-gray-600">Professional and trustworthy staff.</p>
                     </div>
-                    <h3 class="text-xl font-bold text-gray-800 mb-2">Appliance Cleaning</h3>
-                    <p class="text-gray-600">Specialized cleaning for your washing machine, grinder, and other appliances.</p>
+                    <div class="bg-light p-4 rounded-lg">
+                        <i data-lucide="leaf" class="w-8 h-8 text-secondary mb-2"></i>
+                        <h4 class="font-bold">Eco-Friendly</h4>
+                        <p class="text-sm text-gray-600">Safe for your family and pets.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="./img/gk-about-image.png" alt="Housekeeping team" class="rounded-xl shadow-lg w-full h-auto">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Important Note Section -->
+<section class="py-16 bg-amber-50 border-y-2 border-amber-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-8">
+                <a href="#" class="inline-flex items-center">
+                    <img class="h-12 w-auto" src="./img/logo.png" alt="GK Housekeeping">
+                </a>
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">Important Service Notes</h2>
+            </div>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-sm text-center">
+                    <i data-lucide="sparkles" class="w-8 h-8 text-amber-600 mx-auto mb-3"></i>
+                    <h3 class="font-semibold text-gray-900 mb-2">New Tools Only</h3>
+                    <p class="text-gray-700 text-sm">Only new cleaning tools and clothes will be used for your
+                        service</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm text-center">
+                    <i data-lucide="hand" class="w-8 h-8 text-amber-600 mx-auto mb-3"></i>
+                    <h3 class="font-semibold text-gray-900 mb-2">Tools Handover</h3>
+                    <p class="text-gray-700 text-sm">After cleaning, all tools will be handed over to the house
+                        owner</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-sm text-center">
+                    <i data-lucide="credit-card" class="w-8 h-8 text-amber-600 mx-auto mb-3"></i>
+                    <h3 class="font-semibold text-gray-900 mb-2">Tool Payment</h3>
+                    <p class="text-gray-700 text-sm">House owners must pay for the cleaning tools used</p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Pricing Section -->
-    <section id="pricing" class="py-20 bg-light">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Simple, Transparent Pricing</h2>
-                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Choose the plan that's right for you.</p>
-            </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-7xl mx-auto">
-                <div class="bg-white p-8 rounded-xl shadow-md text-center transform hover:scale-105 transition-transform duration-300">
-                    <h3 class="text-2xl font-bold text-gray-800 mb-4">1BHK General Cleaning</h3>
-                    <p class="text-5xl font-bold text-primary mb-6">₹1800</p>
-                    <ul class="text-gray-600 space-y-3 mb-8">
-                        <li class="flex items-center justify-center"><i data-lucide="check" class="w-5 h-5 text-secondary mr-2"></i>Full House Cleaning</li>
-                        <li class="flex items-center justify-center"><i data-lucide="check" class="w-5 h-5 text-secondary mr-2"></i>Floor & Bathroom</li>
-                        <li class="flex items-center justify-center"><i data-lucide="check" class="w-5 h-5 text-secondary mr-2"></i>Kitchen (External)</li>
-                    </ul>
-                    <a href="https://wa.me/916369413755?text=I'm%20interested%20in%20the%201BHK%20General%20Cleaning%20plan." target="_blank" class="bg-gray-800 text-white px-8 py-3 rounded-full font-semibold hover:bg-gray-900 transition-colors">Book</a>
-                </div>
-                <div class="bg-white p-8 rounded-xl shadow-md text-center transform hover:scale-105 transition-transform duration-300">
-                    <h3 class="text-2xl font-bold text-gray-800 mb-4">1BHK Deep Cleaning</h3>
-                    <p class="text-5xl font-bold text-primary mb-6">₹2500</p>
-                    <ul class="text-gray-600 space-y-3 mb-8">
-                        <li class="flex items-center justify-center"><i data-lucide="check" class="w-5 h-5 text-secondary mr-2"></i>Everything in General</li>
-                        <li class="flex items-center justify-center"><i data-lucide="check" class="w-5 h-5 text-secondary mr-2"></i>Window & Grill Cleaning</li>
-                        <li class="flex items-center justify-center"><i data-lucide="check" class="w-5 h-5 text-secondary mr-2"></i>Full Appliance Cleaning</li>
-                    </ul>
-                    <a href="https://wa.me/916369413755?text=I'm%20interested%20in%20the%201BHK%20Deep%20Cleaning%20plan." target="_blank" class="bg-gray-800 text-white px-8 py-3 rounded-full font-semibold hover:bg-gray-900 transition-colors">Book</a>
-                </div>
-                <div class="bg-white p-8 rounded-xl shadow-md text-center transform hover:scale-105 transition-transform duration-300">
-                    <h3 class="text-2xl font-bold text-gray-800 mb-4">2BHK General Cleaning</h3>
-                    <p class="text-5xl font-bold text-primary mb-6">₹2000</p>
-                    <ul class="text-gray-600 space-y-3 mb-8">
-                        <li class="flex items-center justify-center"><i data-lucide="check" class="w-5 h-5 text-secondary mr-2"></i>Full House Cleaning</li>
-                        <li class="flex items-center justify-center"><i data-lucide="check" class="w-5 h-5 text-secondary mr-2"></i>Floor & Bathroom</li>
-                        <li class="flex items-center justify-center"><i data-lucide="check" class="w-5 h-5 text-secondary mr-2"></i>Kitchen (External)</li>
-                    </ul>
-                    <a href="https://wa.me/916369413755?text=I'm%20interested%20in%20the%202BHK%20General%20Cleaning%20plan." target="_blank" class="bg-gray-800 text-white px-8 py-3 rounded-full font-semibold hover:bg-gray-900 transition-colors">Book</a>
-                </div>
-                <div class="bg-white p-8 rounded-xl shadow-md text-center transform hover:scale-105 transition-transform duration-300">
-                    <h3 class="text-2xl font-bold text-gray-800 mb-4">2BHK Deep Cleaning</h3>
-                    <p class="text-5xl font-bold text-primary mb-6">₹3000</p>
-                    <ul class="text-gray-600 space-y-3 mb-8">
-                        <li class="flex items-center justify-center"><i data-lucide="check" class="w-5 h-5 text-secondary mr-2"></i>Everything in General</li>
-                        <li class="flex items-center justify-center"><i data-lucide="check" class="w-5 h-5 text-secondary mr-2"></i>Window & Grill Cleaning</li>
-                        <li class="flex items-center justify-center"><i data-lucide="check" class="w-5 h-5 text-secondary mr-2"></i>Full Appliance Cleaning</li>
-                    </ul>
-                    <a href="https://wa.me/916369413755?text=I'm%20interested%20in%20the%202BHK%20Deep%20Cleaning%20plan." target="_blank" class="bg-gray-800 text-white px-8 py-3 rounded-full font-semibold hover:bg-gray-900 transition-colors">Book</a>
-                </div>
-            </div>
+<!-- Contact Section -->
+<section id="contact" class="py-20 bg-light">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Get in Touch</h2>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">Have questions? Ready to book? Fill out the form below or
+                give us a call!</p>
         </div>
-    </section>
 
-    <!-- About Us Section -->
-    <section id="about" class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-                <div class="text-center md:text-left">
-                    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Your Trusted Cleaning Partner</h2>
-                    <p class="text-lg text-gray-600 mb-6">
-                        With years of experience, GK Housekeeping is dedicated to providing top-quality, reliable cleaning services in Tiruvarur and Nagapattinam. We use modern equipment and eco-friendly products to ensure your home is not just clean, but also safe and healthy.
-                    </p>
-                    <div class="grid grid-cols-2 gap-4 text-left">
-                        <div class="bg-light p-4 rounded-lg">
-                            <i data-lucide="award" class="w-8 h-8 text-primary mb-2"></i>
-                            <h4 class="font-bold">Experienced Team</h4>
-                            <p class="text-sm text-gray-600">Professional and trustworthy staff.</p>
-                        </div>
-                        <div class="bg-light p-4 rounded-lg">
-                            <i data-lucide="leaf" class="w-8 h-8 text-secondary mb-2"></i>
-                            <h4 class="font-bold">Eco-Friendly</h4>
-                            <p class="text-sm text-gray-600">Safe for your family and pets.</p>
-                        </div>
+        <div class="grid  lg:grid-cols-2 gap-12 max-w-6xl mx-auto items-start">
+            <!-- Contact Info -->
+            <div class="space-y-6 bg-white p-8 rounded-xl shadow-lg">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6">Contact Information</h3>
+                <div class="flex items-start space-x-4">
+                    <div class="bg-light p-4 rounded-full">
+                        <i data-lucide="map-pin" class="w-6 h-6 text-primary"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-gray-800 text-lg">Address</h4>
+                        <p class="text-gray-600">Virkudi, Nagapattinam District, 610101</p>
                     </div>
                 </div>
-                <div>
-                    <img src="./img/gk-about-image.png" alt="Housekeeping team" class="rounded-xl shadow-lg w-full h-auto">
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Important Note Section -->
-    <section class="py-16 bg-amber-50 border-y-2 border-amber-200">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="max-w-4xl mx-auto">
-                <div class="text-center mb-8">
-                    <a href="#" class="inline-flex items-center">
-                        <img class="h-12 w-auto" src="./img/logo.png" alt="GK Housekeeping">
-                    </a>
-                    <h2 class="text-2xl font-bold text-gray-900 mb-4">Important Service Notes</h2>
-                </div>
-                <div class="grid md:grid-cols-3 gap-6">
-                    <div class="bg-white p-6 rounded-lg shadow-sm text-center">
-                        <i data-lucide="sparkles" class="w-8 h-8 text-amber-600 mx-auto mb-3"></i>
-                        <h3 class="font-semibold text-gray-900 mb-2">New Tools Only</h3>
-                        <p class="text-gray-700 text-sm">Only new cleaning tools and clothes will be used for your
-                            service</p>
+                <div class="flex items-start space-x-4">
+                    <div class="bg-light p-4 rounded-full">
+                        <i data-lucide="phone" class="w-6 h-6 text-primary"></i>
                     </div>
-                    <div class="bg-white p-6 rounded-lg shadow-sm text-center">
-                        <i data-lucide="hand" class="w-8 h-8 text-amber-600 mx-auto mb-3"></i>
-                        <h3 class="font-semibold text-gray-900 mb-2">Tools Handover</h3>
-                        <p class="text-gray-700 text-sm">After cleaning, all tools will be handed over to the house
-                            owner</p>
-                    </div>
-                    <div class="bg-white p-6 rounded-lg shadow-sm text-center">
-                        <i data-lucide="credit-card" class="w-8 h-8 text-amber-600 mx-auto mb-3"></i>
-                        <h3 class="font-semibold text-gray-900 mb-2">Tool Payment</h3>
-                        <p class="text-gray-700 text-sm">House owners must pay for the cleaning tools used</p>
+                    <div>
+                        <h4 class="font-semibold text-gray-800 text-lg">Phone</h4>
+                        <a href="tel:+916369413755" class="text-gray-600 hover:text-primary">+91 63694 13755</a>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="py-20 bg-light">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Get in Touch</h2>
-                <p class="text-lg text-gray-600 max-w-2xl mx-auto">Have questions? Ready to book? Fill out the form below or give us a call!</p>
-            </div>
-
-            <div class="grid  lg:grid-cols-2 gap-12 max-w-6xl mx-auto items-start">
-                <!-- Contact Info -->
-                <div class="space-y-6 bg-white p-8 rounded-xl shadow-lg">
-                     <h3 class="text-2xl font-bold text-gray-800 mb-6">Contact Information</h3>
-                    <div class="flex items-start space-x-4">
-                        <div class="bg-light p-4 rounded-full">
-                            <i data-lucide="map-pin" class="w-6 h-6 text-primary"></i>
-                        </div>
-                        <div>
-                            <h4 class="font-semibold text-gray-800 text-lg">Address</h4>
-                            <p class="text-gray-600">Virkudi, Nagapattinam District, 610101</p>
-                        </div>
-                    </div>
-                   
-                    <div class="flex items-start space-x-4">
-                        <div class="bg-light p-4 rounded-full">
-                            <i data-lucide="phone" class="w-6 h-6 text-primary"></i>
-                        </div>
-                        <div>
-                            <h4 class="font-semibold text-gray-800 text-lg">Phone</h4>
-                            <a href="tel:+916369413755" class="text-gray-600 hover:text-primary">+91 63694 13755</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-green-50 p-6 rounded-lg border border-green-200">
-                    <h4 class="text-lg font-semibold text-gray-900 mb-4">Quick Contact via WhatsApp</h4>
-                    <p class="text-gray-700 mb-4">Get instant response and book your service immediately</p>
-                    <a href="https://wa.me/916369413755?text=Hi%2C%20I%20would%20like%20to%20book%20housekeeping%20services"
-                        target="_blank"
-                        class="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
-                        <svg class="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="800px" width="800px" version="1.1" id="Layer_1" viewBox="0 0 512 512" xml:space="preserve">
-                            <path style="fill:#EDEDED;" d="M0,512l35.31-128C12.359,344.276,0,300.138,0,254.234C0,114.759,114.759,0,255.117,0  S512,114.759,512,254.234S395.476,512,255.117,512c-44.138,0-86.51-14.124-124.469-35.31L0,512z"/>
-                            <path style="fill:#55CD6C;" d="M137.71,430.786l7.945,4.414c32.662,20.303,70.621,32.662,110.345,32.662  c115.641,0,211.862-96.221,211.862-213.628S371.641,44.138,255.117,44.138S44.138,137.71,44.138,254.234  c0,40.607,11.476,80.331,32.662,113.876l5.297,7.945l-20.303,74.152L137.71,430.786z"/>
-                            <path style="fill:#FEFEFE;" d="M187.145,135.945l-16.772-0.883c-5.297,0-10.593,1.766-14.124,5.297  c-7.945,7.062-21.186,20.303-24.717,37.959c-6.179,26.483,3.531,58.262,26.483,90.041s67.09,82.979,144.772,105.048  c24.717,7.062,44.138,2.648,60.028-7.062c12.359-7.945,20.303-20.303,22.952-33.545l2.648-12.359  c0.883-3.531-0.883-7.945-4.414-9.71l-55.614-25.6c-3.531-1.766-7.945-0.883-10.593,2.648l-22.069,28.248  c-1.766,1.766-4.414,2.648-7.062,1.766c-15.007-5.297-65.324-26.483-92.69-79.448c-0.883-2.648-0.883-5.297,0.883-7.062  l21.186-23.834c1.766-2.648,2.648-6.179,1.766-8.828l-25.6-57.379C193.324,138.593,190.676,135.945,187.145,135.945"/>
+            <div class="bg-green-50 p-6 rounded-lg border border-green-200">
+                <h4 class="text-lg font-semibold text-gray-900 mb-4">Quick Contact via WhatsApp</h4>
+                <p class="text-gray-700 mb-4">Get instant response and book your service immediately</p>
+                <a href="https://wa.me/916369413755?text=Hi%2C%20I%20would%20like%20to%20book%20housekeeping%20services"
+                   target="_blank"
+                   class="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors">
+                    <svg class="w-5 h-5 mr-2" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" height="800px" width="800px" version="1.1"
+                         id="Layer_1" viewBox="0 0 512 512" xml:space="preserve">
+                            <path style="fill:#EDEDED;"
+                                  d="M0,512l35.31-128C12.359,344.276,0,300.138,0,254.234C0,114.759,114.759,0,255.117,0  S512,114.759,512,254.234S395.476,512,255.117,512c-44.138,0-86.51-14.124-124.469-35.31L0,512z"/>
+                        <path style="fill:#55CD6C;"
+                              d="M137.71,430.786l7.945,4.414c32.662,20.303,70.621,32.662,110.345,32.662  c115.641,0,211.862-96.221,211.862-213.628S371.641,44.138,255.117,44.138S44.138,137.71,44.138,254.234  c0,40.607,11.476,80.331,32.662,113.876l5.297,7.945l-20.303,74.152L137.71,430.786z"/>
+                        <path style="fill:#FEFEFE;"
+                              d="M187.145,135.945l-16.772-0.883c-5.297,0-10.593,1.766-14.124,5.297  c-7.945,7.062-21.186,20.303-24.717,37.959c-6.179,26.483,3.531,58.262,26.483,90.041s67.09,82.979,144.772,105.048  c24.717,7.062,44.138,2.648,60.028-7.062c12.359-7.945,20.303-20.303,22.952-33.545l2.648-12.359  c0.883-3.531-0.883-7.945-4.414-9.71l-55.614-25.6c-3.531-1.766-7.945-0.883-10.593,2.648l-22.069,28.248  c-1.766,1.766-4.414,2.648-7.062,1.766c-15.007-5.297-65.324-26.483-92.69-79.448c-0.883-2.648-0.883-5.297,0.883-7.062  l21.186-23.834c1.766-2.648,2.648-6.179,1.766-8.828l-25.6-57.379C193.324,138.593,190.676,135.945,187.145,135.945"/>
                             </svg>
-                        Chat on WhatsApp
+                    Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-800 text-white py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+            <div>
+                <h3 class="text-lg font-bold mb-4">GK Housekeeping</h3>
+                <p class="text-gray-400">Your partner in creating a clean and healthy home environment.</p>
+            </div>
+            <div>
+                <h3 class="text-lg font-bold mb-4">Quick Links</h3>
+                <ul class="space-y-2">
+                    <li><a href="#services" class="text-gray-400 hover:text-white transition-colors">Services</a></li>
+                    <li><a href="#pricing" class="text-gray-400 hover:text-white transition-colors">Pricing</a></li>
+                    <li><a href="#about" class="text-gray-400 hover:text-white transition-colors">About</a></li>
+                    <li><a href="#contact" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg font-bold mb-4">Connect With Us</h3>
+                <div class="flex justify-center md:justify-start space-x-4">
+                    <a href="https://wa.me/916369413755" target="_blank"
+                       class="text-gray-400 hover:text-white transition-colors">
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="800px" width="800px" version="1.1" id="Layer_1" viewBox="0 0 512 512" xml:space="preserve">
+            <path style="fill:#EDEDED;"
+                  d="M0,512l35.31-128C12.359,344.276,0,300.138,0,254.234C0,114.759,114.759,0,255.117,0  S512,114.759,512,254.234S395.476,512,255.117,512c-44.138,0-86.51-14.124-124.469-35.31L0,512z"/>
+            <path style="fill:#55CD6C;"
+                  d="M137.71,430.786l7.945,4.414c32.662,20.303,70.621,32.662,110.345,32.662  c115.641,0,211.862-96.221,211.862-213.628S371.641,44.138,255.117,44.138S44.138,137.71,44.138,254.234  c0,40.607,11.476,80.331,32.662,113.876l5.297,7.945l-20.303,74.152L137.71,430.786z"/>
+            <path style="fill:#FEFEFE;"
+                  d="M187.145,135.945l-16.772-0.883c-5.297,0-10.593,1.766-14.124,5.297  c-7.945,7.062-21.186,20.303-24.717,37.959c-6.179,26.483,3.531,58.262,26.483,90.041s67.09,82.979,144.772,105.048  c24.717,7.062,44.138,2.648,60.028-7.062c12.359-7.945,20.303-20.303,22.952-33.545l2.648-12.359  c0.883-3.531-0.883-7.945-4.414-9.71l-55.614-25.6c-3.531-1.766-7.945-0.883-10.593,2.648l-22.069,28.248  c-1.766,1.766-4.414,2.648-7.062,1.766c-15.007-5.297-65.324-26.483-92.69-79.448c-0.883-2.648-0.883-5.297,0.883-7.062  l21.186-23.834c1.766-2.648,2.648-6.179,1.766-8.828l-25.6-57.379C193.324,138.593,190.676,135.945,187.145,135.945"/>
+            </svg>
                     </a>
                 </div>
             </div>
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white py-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
-                <div>
-                    <h3 class="text-lg font-bold mb-4">GK Housekeeping</h3>
-                    <p class="text-gray-400">Your partner in creating a clean and healthy home environment.</p>
-                </div>
-                <div>
-                    <h3 class="text-lg font-bold mb-4">Quick Links</h3>
-                    <ul class="space-y-2">
-                        <li><a href="#services" class="text-gray-400 hover:text-white transition-colors">Services</a></li>
-                        <li><a href="#pricing" class="text-gray-400 hover:text-white transition-colors">Pricing</a></li>
-                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors">About</a></li>
-                        <li><a href="#contact" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 class="text-lg font-bold mb-4">Connect With Us</h3>
-                    <div class="flex justify-center md:justify-start space-x-4">
-                       <a href="https://wa.me/916369413755" target="_blank" class="text-gray-400 hover:text-white transition-colors"><svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="800px" width="800px" version="1.1" id="Layer_1" viewBox="0 0 512 512" xml:space="preserve">
-            <path style="fill:#EDEDED;" d="M0,512l35.31-128C12.359,344.276,0,300.138,0,254.234C0,114.759,114.759,0,255.117,0  S512,114.759,512,254.234S395.476,512,255.117,512c-44.138,0-86.51-14.124-124.469-35.31L0,512z"/>
-            <path style="fill:#55CD6C;" d="M137.71,430.786l7.945,4.414c32.662,20.303,70.621,32.662,110.345,32.662  c115.641,0,211.862-96.221,211.862-213.628S371.641,44.138,255.117,44.138S44.138,137.71,44.138,254.234  c0,40.607,11.476,80.331,32.662,113.876l5.297,7.945l-20.303,74.152L137.71,430.786z"/>
-            <path style="fill:#FEFEFE;" d="M187.145,135.945l-16.772-0.883c-5.297,0-10.593,1.766-14.124,5.297  c-7.945,7.062-21.186,20.303-24.717,37.959c-6.179,26.483,3.531,58.262,26.483,90.041s67.09,82.979,144.772,105.048  c24.717,7.062,44.138,2.648,60.028-7.062c12.359-7.945,20.303-20.303,22.952-33.545l2.648-12.359  c0.883-3.531-0.883-7.945-4.414-9.71l-55.614-25.6c-3.531-1.766-7.945-0.883-10.593,2.648l-22.069,28.248  c-1.766,1.766-4.414,2.648-7.062,1.766c-15.007-5.297-65.324-26.483-92.69-79.448c-0.883-2.648-0.883-5.297,0.883-7.062  l21.186-23.834c1.766-2.648,2.648-6.179,1.766-8.828l-25.6-57.379C193.324,138.593,190.676,135.945,187.145,135.945"/>
-            </svg></a>
-                    </div>
-                </div>
-            </div>
-            <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
-                <p>&copy; <span id="year"></span> GK Housekeeping Services. All Rights Reserved.</p>
-            </div>
+        <div class="border-t border-gray-700 mt-8 pt-6 text-center text-gray-400">
+            <p>&copy; <span id="year"></span> GK Housekeeping Services. All Rights Reserved.</p>
         </div>
-    </footer>
+    </div>
+</footer>
 <script>
-        document.getElementById("year").textContent = new Date().getFullYear();
-        // Initialize Lucide icons
-        lucide.createIcons();
+    document.getElementById("year").textContent = new Date().getFullYear();
+    // Initialize Lucide icons
+    lucide.createIcons();
 
-        // Mobile menu toggle
-        const mobileMenuButton = document.getElementById('mobile-menu-button');
-        const mobileMenu = document.getElementById('mobile-menu');
+    // Mobile menu toggle
+    const mobileMenuButton = document.getElementById('mobile-menu-button');
+    const mobileMenu = document.getElementById('mobile-menu');
 
-        mobileMenuButton.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-        });
+    mobileMenuButton.addEventListener('click', () => {
+        mobileMenu.classList.toggle('hidden');
+    });
 
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                }
-                // Close mobile menu if open
-                mobileMenu.classList.add('hidden');
-            });
-        });
-
-        // Add scroll effect to navigation
-        window.addEventListener('scroll', () => {
-            const nav = document.querySelector('nav');
-            if (window.scrollY > 100) {
-                nav.classList.add('shadow-md');
-            } else {
-                nav.classList.remove('shadow-md');
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
             }
+            // Close mobile menu if open
+            mobileMenu.classList.add('hidden');
         });
-    </script>
-    <!-- Sticky WhatsApp Button -->
-    <a href="https://wa.me/916369413755" target="_blank" 
-       class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 transform hover:scale-110">
-        <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="800px" width="800px" version="1.1" id="Layer_1" viewBox="0 0 512 512" xml:space="preserve">
-            <path style="fill:#EDEDED;" d="M0,512l35.31-128C12.359,344.276,0,300.138,0,254.234C0,114.759,114.759,0,255.117,0  S512,114.759,512,254.234S395.476,512,255.117,512c-44.138,0-86.51-14.124-124.469-35.31L0,512z"/>
-            <path style="fill:#55CD6C;" d="M137.71,430.786l7.945,4.414c32.662,20.303,70.621,32.662,110.345,32.662  c115.641,0,211.862-96.221,211.862-213.628S371.641,44.138,255.117,44.138S44.138,137.71,44.138,254.234  c0,40.607,11.476,80.331,32.662,113.876l5.297,7.945l-20.303,74.152L137.71,430.786z"/>
-            <path style="fill:#FEFEFE;" d="M187.145,135.945l-16.772-0.883c-5.297,0-10.593,1.766-14.124,5.297  c-7.945,7.062-21.186,20.303-24.717,37.959c-6.179,26.483,3.531,58.262,26.483,90.041s67.09,82.979,144.772,105.048  c24.717,7.062,44.138,2.648,60.028-7.062c12.359-7.945,20.303-20.303,22.952-33.545l2.648-12.359  c0.883-3.531-0.883-7.945-4.414-9.71l-55.614-25.6c-3.531-1.766-7.945-0.883-10.593,2.648l-22.069,28.248  c-1.766,1.766-4.414,2.648-7.062,1.766c-15.007-5.297-65.324-26.483-92.69-79.448c-0.883-2.648-0.883-5.297,0.883-7.062  l21.186-23.834c1.766-2.648,2.648-6.179,1.766-8.828l-25.6-57.379C193.324,138.593,190.676,135.945,187.145,135.945"/>
-            </svg>
-    </a>
+    });
 
-    <!-- Initialize Lucide Icons -->
-    
+    // Add scroll effect to navigation
+    window.addEventListener('scroll', () => {
+        const nav = document.querySelector('nav');
+        if (window.scrollY > 100) {
+            nav.classList.add('shadow-md');
+        } else {
+            nav.classList.remove('shadow-md');
+        }
+    });
+</script>
+<!-- Sticky WhatsApp Button -->
+<a href="https://wa.me/916369413755" target="_blank"
+   class="fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg transition-all duration-300 transform hover:scale-110">
+    <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="800px"
+         width="800px" version="1.1" id="Layer_1" viewBox="0 0 512 512" xml:space="preserve">
+            <path style="fill:#EDEDED;"
+                  d="M0,512l35.31-128C12.359,344.276,0,300.138,0,254.234C0,114.759,114.759,0,255.117,0  S512,114.759,512,254.234S395.476,512,255.117,512c-44.138,0-86.51-14.124-124.469-35.31L0,512z"/>
+        <path style="fill:#55CD6C;"
+              d="M137.71,430.786l7.945,4.414c32.662,20.303,70.621,32.662,110.345,32.662  c115.641,0,211.862-96.221,211.862-213.628S371.641,44.138,255.117,44.138S44.138,137.71,44.138,254.234  c0,40.607,11.476,80.331,32.662,113.876l5.297,7.945l-20.303,74.152L137.71,430.786z"/>
+        <path style="fill:#FEFEFE;"
+              d="M187.145,135.945l-16.772-0.883c-5.297,0-10.593,1.766-14.124,5.297  c-7.945,7.062-21.186,20.303-24.717,37.959c-6.179,26.483,3.531,58.262,26.483,90.041s67.09,82.979,144.772,105.048  c24.717,7.062,44.138,2.648,60.028-7.062c12.359-7.945,20.303-20.303,22.952-33.545l2.648-12.359  c0.883-3.531-0.883-7.945-4.414-9.71l-55.614-25.6c-3.531-1.766-7.945-0.883-10.593,2.648l-22.069,28.248  c-1.766,1.766-4.414,2.648-7.062,1.766c-15.007-5.297-65.324-26.483-92.69-79.448c-0.883-2.648-0.883-5.297,0.883-7.062  l21.186-23.834c1.766-2.648,2.648-6.179,1.766-8.828l-25.6-57.379C193.324,138.593,190.676,135.945,187.145,135.945"/>
+            </svg>
+</a>
+
+<!-- Initialize Lucide Icons -->
+
 </body>
 
 </html>
