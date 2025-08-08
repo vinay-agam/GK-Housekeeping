@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /.git/
 
 
-Sitemap: http://www.gkhousekeeping.in/sitemap.xml
+Sitemap: https://www.gkhousekeeping.in/sitemap.xml
